@@ -23,3 +23,5 @@ Step 3. Add TagsEditText to your layout file
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 ```
+## Screen Shot ##
+![Screenshot](Screenshot.jpg)
