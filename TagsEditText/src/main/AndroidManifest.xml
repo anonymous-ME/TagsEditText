@@ -1,2 +1,2 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="affan.ahmad.tagsedittext"/>
+<manifest
+        package="affan.ahmad.tags"/>
