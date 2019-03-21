@@ -1,4 +1,4 @@
-# Android TagsEditText View for text view with tags
+# Android TagsEditText View for creating tags with EditText
 
 ## How to use ##
 
@@ -14,14 +14,15 @@ allprojects {
 Step 2. Add the dependency
 ```groovy
 dependencies {
-	implementation 'com.github.anonymous-ME:TagsEditText:0.1.0'
+	implementation 'com.github.anonymous-ME:TagsEditText:0.5.0'
 }
 ```
 Step 3. Add TagsEditText to your layout file
 ```xml
-<affan.ahmad.tagsedittext.TagTextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+    <affan.ahmad.tags.TagsEditText
+            android:animateLayoutChanges="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 ```
 ## Screenshot ##
 ![Screenshot](Screenshot.jpg)
